@@ -2,7 +2,7 @@
   "name": "HelloWorldTemplateExtension",
   "displayName": "Hello World Template Extension",
   "description": "A template extension for Visual Studio Code that displays a 'Hello World' message.  This extension serves as a starting point for developers looking to create their own VS Code extensions. It includes the necessary configuration files, a basic command, and a simple user interface. Developers can modify the code and add new features to customize the extension according to their needs.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.115.0"
   },
@@ -48,5 +48,9 @@
     "serialize-javascript": "^7.0.6"
   },
   "publisher": "NathanGrahamBusse",
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nathan-Busse/helloworld"
+  }
 }
